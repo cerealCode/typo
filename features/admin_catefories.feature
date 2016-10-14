@@ -5,7 +5,7 @@ Feature: Create Categories
 
   Background: 
     Given the blog is set up
-    And I am logged into the
+    And I am logged into the admin panel
 
     Scenario: Succesfully create or edit Categories
       Given I am on the 'categories page'
